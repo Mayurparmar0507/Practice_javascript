@@ -1,4 +1,4 @@
-
+// Object
 const person = {
     firstname : 'mayur',
     lastname : 'parmar',
