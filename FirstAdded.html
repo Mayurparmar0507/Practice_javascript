@@ -1,0 +1,126 @@
+0
+: 
+"SELECT CURRENT_TIMESTAMP(3) AS createTimeStamp"
+1
+: 
+" CASE WHEN _sdc_deleted_at IS NOT NULL THEN 1 ELSE 0 END AS isDeleted"
+2
+: 
+"_sdc_batched_at AS loadedTimestamp"
+3
+: 
+" _sdc_batched_at"
+4
+: 
+" _sdc_deleted_at"
+5
+: 
+" _sdc_extracted_at"
+6
+: 
+" companyId AS companyId"
+7
+: 
+" crmopportunityId AS id"
+8
+: 
+" crmowneremail AS email"
+9
+: 
+" crmclosedate AS date_1"
+10
+: 
+" crmcreatedate AS date_2"
+11
+: 
+" currentamount AS measure_1"
+12
+: 
+" DATE_PART('day'"
+13
+: 
+" crmclosedate - crmcreatedate) AS measure_2"
+14
+: 
+"NULL AS measure_3"
+15
+: 
+" NULL AS measure_4"
+16
+: 
+" NULL AS measure_5"
+17
+: 
+" NULL AS measure_6"
+18
+: 
+" NULL AS measure_7"
+19
+: 
+" NULL AS measure_8"
+20
+: 
+" NULL AS measure_9"
+21
+: 
+" NULL AS measure_10"
+22
+: 
+" CAST(currentstage AS VARCHAR) AS dimension_1"
+23
+: 
+" currentstagename AS dimension_2"
+24
+: 
+" CAST(iswon AS VARCHAR) AS dimension_3"
+25
+: 
+" CAST(isclosed AS VARCHAR) AS dimension_4"
+26
+: 
+" CAST(crmisdeleted AS VARCHAR) AS dimension_5"
+27
+: 
+" NULL AS dimension_6"
+28
+: 
+"NULL AS dimension_7"
+29
+: 
+" NULL AS dimension_8"
+30
+: 
+" NULL AS dimension_9"
+31
+: 
+" NULL AS dimension_10"
+32
+: 
+" name AS attribute_1"
+33
+: 
+" crmownerid AS attribute_2"
+34
+: 
+" crmownername AS attribute_3"
+35
+: 
+" crmaccountid AS attribute_4"
+36
+: 
+" NULL AS attribute_5"
+37
+: 
+" NULL AS attribute_6"
+38
+: 
+" NULL AS attribute_7"
+39
+: 
+" NULL AS attribute_8"
+40
+: 
+" NULL AS attribute_9"
+41
+: 
+" NULL AS attribute_10"
