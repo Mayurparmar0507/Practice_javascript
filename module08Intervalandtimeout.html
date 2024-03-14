@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Variable practice</title>
+  </head>
+  <body>
+    <p>hello</p>
+    <script>
+      const time = 1000;
+      const hello = function () {
+        console.log("Hello userplease whit will load content in 1 second");
+      };
+      function helloUser() {
+        console.log("servertimeout ");
+      }
+      //setTimeout(helloUser, time);
+      // console.log(`every kid get ${dividechoc}`);
+
+      const clear = async function () {
+        console.log((document.body.innerHTML = "<p>clear</p>"));
+      };
+      const closeTime = async () => {
+        setInterval(clear, 100);
+        setTimeout(clearInterval(closeTime, 10000));
+      };
+
+      setTimeout(hello, 10000); // stop running timer
+    </script>
+    <script src="object.js"></script>
+  </body>
+</html>
